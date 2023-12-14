@@ -1,0 +1,264 @@
+/* Veranderd standaard alles */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigatie van alle pagina's */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 1px 15px black;
+  padding: 1.3em 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  list-style-type: none;
+}
+
+header nav ul li {
+  color: black;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  transition: 250ms;
+}
+
+header nav ul a:hover {
+  color: red;
+}
+
+/* Hoofdpagina */
+main article h1 {
+  text-align: center;
+  font-size: 5em;
+  margin: 0;
+  margin-top: 2em;
+}
+
+main article h2 {
+  position: relative;
+  margin-top: 1em;
+}
+
+.linkovermij {
+  display: block;
+  background-color: rgb(197, 36, 36);
+  width: fit-content;
+  padding: 1em 2em;
+  margin: auto;
+  border-radius: 0.8em;
+  margin-top: 4em;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.linkovermij:hover {
+  color: rgb(197, 36, 36);
+  background-color: rgb(255, 255, 255);
+  border: 0.1em solid black;
+  transition: 250ms;
+}
+
+/* Main (alle pagina's, behalve de Hoofdpagina) */
+main {
+  width: 100%;
+  margin: auto;
+}
+
+main h1 {
+  color: black;
+  font-size: 4em;
+  margin-top: 1.5em;
+  margin-left: 3.5em;
+}
+
+main h2 {
+  width: 65%;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main p {
+  margin: 1em 14em;
+}
+
+main a {
+  padding: 0em;
+  color: black;
+  text-decoration: underline;
+  transition: 250ms;
+}
+
+main a:hover {
+  color: rgb(197, 36, 36);
+  text-decoration: none;
+}
+
+main section {
+  display: flex;
+  padding: 9em;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+main section img {
+  padding: 0.5em;
+  width: 550px;
+  height: 400px;
+}
+
+.block {
+  display: flex;
+  background-color: rgb(197, 36, 36);
+  padding: 5em 0;
+  margin-top: 7em;
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.block p {
+  margin: 0 6em;
+  color: white;
+}
+
+.block img {
+  width: 30em;
+  height: 20em;
+  margin-right: 6em;
+}
+
+.text-block {
+  padding: 0 14em;
+}
+
+.text-block a {
+  color: black;
+  text-decoration: underline;
+  transition: 250ms;
+  font-size: 2em;
+}
+
+.text-block a:hover {
+  color: rgb(197, 36, 36);
+  text-decoration: none;
+}
+
+.block-2 {
+  display: flex;
+  padding: 5em 0;
+  width: 100%;
+}
+
+.block-2 p {
+  margin-left: 14em;
+  margin-right: 6em;
+}
+
+.block-2 img {
+  width: 40em;
+  height: 30em;
+  margin-right: 14em;
+}
+
+.block-3 {
+  display: flex;
+  padding: 5em 0;
+  width: 100%;
+}
+
+.block-3 p {
+  margin-left: 4em;
+  margin-right: 14em;
+}
+
+.block-3 img {
+  width: 30em;
+  height: 10em;
+  margin-right: 2em;
+  margin-left: 8em;
+}
+
+.block-4 {
+  background-color: rgb(197, 36, 36);
+  padding: 2em;
+}
+
+.block-4 p {
+  color: white;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.block-5 {
+  display: flex;
+  margin: auto;
+  width: 73%;
+}
+
+.block-5 p {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+.photo {
+  display: flex;
+  margin: auto;
+  width: 30%;
+}
+
+.logo {
+  width: 30%;
+  display: block;
+  margin: auto;
+  padding: 3em 0;
+}
+
+/* Tijdlijn lijn */
+.tijdlijn {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0em 10em;
+}
+
+.tijdlijn div {
+  width: 100%;
+}
+
+.tijdlijn div:first-of-type {
+  padding-top: 10em;
+}
+
+.tijdlijn h3 {
+  margin-top: 6em;
+  font-size: 3em;
+}
+
+.tijdlijn p {
+  font-size: 1.2em;
+  color: rgb(138, 138, 138);
+  margin: 0em;
+}
+
+.tijdlijn img {
+  height: 100em;
+  width: 6em;
+  display: block;
+  margin: auto;
+}
